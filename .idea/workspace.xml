@@ -7,7 +7,9 @@
     <list default="true" id="921be60e-fad3-4651-9e6c-a3ee40f735f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/akbank/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/akbank/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/akbank/tests/akbankCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/akbank/tests/akbankTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/akbank/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/akbank/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/akbank/tests/akbankCase.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,21 +59,19 @@
       <recent name="com.akbank.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.akbankCase.test1">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.akbankTest.test1">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="akbankCase.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="akbankTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NetasAkbankCaseStudy" />
       <extension name="coverage">
         <pattern>
@@ -80,7 +80,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.akbank.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.akbank.tests.akbankCase" />
+      <option name="MAIN_CLASS_NAME" value="com.akbank.tests.akbankTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -89,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="akbankCase.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="akbankTest.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NetasAkbankCaseStudy" />
       <extension name="coverage">
         <pattern>
@@ -98,7 +98,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.akbank.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.akbank.tests.akbankCase" />
+      <option name="MAIN_CLASS_NAME" value="com.akbank.tests.akbankTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -107,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="akbankCase.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="akbankTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NetasAkbankCaseStudy" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +116,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.akbank.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.akbank.tests.akbankCase" />
+      <option name="MAIN_CLASS_NAME" value="com.akbank.tests.akbankTest" />
       <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -127,9 +127,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.akbankCase.test1" />
-        <item itemvalue="TestNG.akbankCase.test2" />
-        <item itemvalue="TestNG.akbankCase.test" />
+        <item itemvalue="TestNG.akbankTest.test1" />
+        <item itemvalue="TestNG.akbankTest.test2" />
+        <item itemvalue="TestNG.akbankTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +144,8 @@
       <workItem from="1620940882490" duration="11625000" />
       <workItem from="1621027043524" duration="7048000" />
       <workItem from="1621038496336" duration="4175000" />
-      <workItem from="1621110990512" duration="10366000" />
+      <workItem from="1621110990512" duration="11691000" />
+      <workItem from="1621164598496" duration="4902000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1621119452390</created>
@@ -160,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621119687050</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="video recording method added to TestBase class, you can find the records under resources within ScriptVideos file">
+      <created>1621123310439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621123310439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +179,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="Add .gitignore file ignoring all IDE setting files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore file ignoring all IDE setting files" />
+    <MESSAGE value="video recording method added to TestBase class, you can find the records under resources within ScriptVideos file" />
+    <option name="LAST_COMMIT_MESSAGE" value="video recording method added to TestBase class, you can find the records under resources within ScriptVideos file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

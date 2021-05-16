@@ -26,13 +26,10 @@ public class TestBase {
     @BeforeMethod
     public void setUp() throws ATUTestRecorderException {
 
-
         DateFormat dateFormat = new SimpleDateFormat("yy-MM-dd HH-mm-ss");
         Date date = new Date();
-        //Created object of ATUTestRecorder
-        //Provide path to store videos and file name format.
+
         recorder = new ATUTestRecorder("src/test/resources/ScriptVideos","TestVideo-"+dateFormat.format(date),false);
-        //To start video recording.
         recorder.start();
 
         driver = Driver.get();
@@ -46,10 +43,10 @@ public class TestBase {
 
     @AfterMethod
     public void tearDown(ITestResult result) throws InterruptedException, ATUTestRecorderException {
-        Thread.sleep(2000);
-        Driver.closeDriver();
-        //To stop video recording.
-        recorder.stop();
-    }
 
+        Thread.sleep(2000);
+        recorder.stop();
+
+        Driver.closeDriver();
+    }
 }
